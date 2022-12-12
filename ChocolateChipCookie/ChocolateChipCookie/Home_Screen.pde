@@ -1,4 +1,6 @@
-void homeScreen() {
+Float backgroundX, backgroundY, backgroundWidth, backgroundHeight;
+//
+void homeScreen() { //Exists in VOID DRAW
   println("Arrived at Home Screen"); //Testing for Splash Screen Start Button working
   /*Home Screen Expectations
   -Background image using tint()
@@ -11,5 +13,18 @@ void homeScreen() {
   */
   //
 }//End homeScreen
+//
+void backgroudWhiteScreen() {
+  fill(white);
+  noStroke();
+  rect( backgroundX, backgroundY, backgroundWidth, backgroundHeight ); //white colour
+  stroke(1); //Reset: 1 pixel
+  fill(white); //Reset: white
+}//End backgroudWhiteScreen
+//
+void backgroundImage() {
+  backgroundWhiteScreen();
+  //image with tint()
+}//End backgroundImage
 //
 //End Home Screen Subprogram

@@ -1,7 +1,7 @@
 PImage backgroundImage, quitButtonImage;
 //
 void imageSetup() {//Image Population
-  backgroundImage=loadImage("../Images/06GINGERBREADnew3-threeByTwoMediumAt2X-v2.jpg");
+  backgroundImage=loadImage("../Images/chocolate-chip-cookies-1.jpg");
   //quitButtonImage is loaded here if different
 }//End imageSetup
 //

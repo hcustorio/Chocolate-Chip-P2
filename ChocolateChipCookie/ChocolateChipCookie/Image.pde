@@ -20,7 +20,7 @@ void quitButtonImage() {
   quitButtonImage = backgroundImage;
   //
   //Image Dimensions
-  float quitButtonImageWidth=1500, quitButtonImageHeight=1000;
+  float quitButtonImageWidth=1200, quitButtonImageHeight=1800;
   //rect( quitButtonImageRectX, quitButtonImageRectY, quitButtonImageRectWidth, quitButtonImageRectHeight );
   //Following vars must be populated or debugger error
   float quitButtonImageWidth_Adjusted=0.0, quitButtonImageHeight_Adjusted=0.0;
